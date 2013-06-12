@@ -201,10 +201,17 @@
 		C2D7EFF614EF11E900C21925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "TestApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					AtoZ,
+				);
 				PRODUCT_NAME = TestApp;
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -212,10 +219,17 @@
 		C2D7EFF714EF11E900C21925 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "TestApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					AtoZ,
+				);
 				PRODUCT_NAME = TestApp;
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
