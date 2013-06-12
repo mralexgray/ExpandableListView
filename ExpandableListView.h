@@ -13,7 +13,6 @@
 /// @brief Data source for expandable list view. Data source should implement three mandatory methods returning number of views, view for given index, title of view at given index.
 @protocol ExpandableListDataSource <NSObject>
 
-/// Method returning number of views to show in expandable list.
 /// @param listView list view requesting information
 /// @return number of views
 - (NSInteger) numberOfViewsInExpandableList:(ExpandableListView *)listView;
